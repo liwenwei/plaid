@@ -15,12 +15,7 @@
 package io.plaidapp.ui.recyclerview
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.LinearGradient
-import android.graphics.Paint
-import android.graphics.PorterDuff
-import android.graphics.PorterDuffColorFilter
+import android.graphics.*
 import android.graphics.Shader.TileMode.CLAMP
 import android.graphics.drawable.Drawable
 import android.support.v4.content.ContextCompat

@@ -61,11 +61,11 @@ import io.plaidapp.data.PlaidItem;
 import io.plaidapp.data.SearchDataManager;
 import io.plaidapp.data.api.dribbble.model.Shot;
 import io.plaidapp.data.pocket.PocketUtils;
-import io.plaidapp.util.ShortcutHelper;
 import io.plaidapp.ui.recyclerview.InfiniteScrollListener;
 import io.plaidapp.ui.recyclerview.SlideInItemAnimator;
 import io.plaidapp.ui.transitions.CircularReveal;
 import io.plaidapp.util.ImeUtils;
+import io.plaidapp.util.ShortcutHelper;
 import io.plaidapp.util.TransitionUtils;
 
 public class SearchActivity extends Activity {

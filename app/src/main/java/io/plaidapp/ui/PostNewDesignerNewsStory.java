@@ -44,13 +44,13 @@ import butterknife.OnTextChanged;
 import io.plaidapp.R;
 import io.plaidapp.data.api.designernews.PostStoryService;
 import io.plaidapp.data.prefs.DesignerNewsPrefs;
-import io.plaidapp.util.ShortcutHelper;
 import io.plaidapp.ui.transitions.FabTransform;
 import io.plaidapp.ui.transitions.MorphTransform;
 import io.plaidapp.ui.widget.BottomSheet;
 import io.plaidapp.ui.widget.ObservableScrollView;
 import io.plaidapp.util.AnimUtils;
 import io.plaidapp.util.ImeUtils;
+import io.plaidapp.util.ShortcutHelper;
 
 public class PostNewDesignerNewsStory extends Activity {
 

@@ -19,15 +19,14 @@ import android.util.Patterns;
 import android.util.TypedValue;
 import android.widget.TextView;
 
-import in.uncod.android.bypass.style.FancyQuoteSpan;
-import in.uncod.android.bypass.style.ImageLoadingSpan;
-
-import in.uncod.android.bypass.Element.Type;
-import in.uncod.android.bypass.style.HorizontalLineSpan;
-import in.uncod.android.bypass.style.TouchableUrlSpan;
-
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+
+import in.uncod.android.bypass.Element.Type;
+import in.uncod.android.bypass.style.FancyQuoteSpan;
+import in.uncod.android.bypass.style.HorizontalLineSpan;
+import in.uncod.android.bypass.style.ImageLoadingSpan;
+import in.uncod.android.bypass.style.TouchableUrlSpan;
 
 public class Bypass {
     static {

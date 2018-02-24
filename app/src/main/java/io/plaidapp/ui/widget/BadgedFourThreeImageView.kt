@@ -15,19 +15,10 @@
 package io.plaidapp.ui.widget
 
 import android.content.Context
-import android.graphics.Bitmap
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.ColorFilter
-import android.graphics.Paint
+import android.graphics.*
 import android.graphics.Paint.ANTI_ALIAS_FLAG
 import android.graphics.Paint.SUBPIXEL_TEXT_FLAG
-import android.graphics.PixelFormat
-import android.graphics.PorterDuff
 import android.graphics.PorterDuff.Mode.CLEAR
-import android.graphics.PorterDuffXfermode
-import android.graphics.Rect
-import android.graphics.Typeface
 import android.graphics.drawable.Drawable
 import android.support.annotation.ColorInt
 import android.text.TextPaint
