@@ -1,13 +1,12 @@
 package in.uncod.android.bypass;
 
-import java.util.Map;
 import java.util.HashMap;
 
 public class Element {
 
     public static final int F_LIST_ORDERED = 1;
     String text;
-    Map<String, String> attributes = new HashMap<String, String>();
+    HashMap<String, String> attributes = new HashMap<String, String>();
     Element[] children;
     Type type;
     Element parent;
