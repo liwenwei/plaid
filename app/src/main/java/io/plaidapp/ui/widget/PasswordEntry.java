@@ -295,7 +295,7 @@ public class PasswordEntry extends TextInputEditText {
             // scale the mask: down from/up to the character width
             canvas.scale(maskScale, maskScale, x + bounds.exactCenterX(), bounds.exactCenterY());
             // cross fade between the mask/character
-            paint.setAlpha((int) AnimUtils.lerp(0, alpha, progress));
+            paint.setAlpha((int) lerp(0, alpha, progress));
             // vertically move the mask center from/toward the character center
             canvas.drawText(PASSWORD_MASK, 0, 1, x, -lerp(textOffsetY, 0f, progress), paint);
             canvas.restore();
